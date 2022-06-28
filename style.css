@@ -23,7 +23,7 @@ main {
 }
 
 .container {
-  background-image: url(/images/bg-intro-mobile.png);
+  background-image: url(bg-intro-mobile.png);
   width: 100%;
   max-width: 375px;
   background-color: hsl(0, 100%, 74%);
@@ -235,6 +235,7 @@ form {
   .container {
     flex-direction: row;
     max-width: 100%;
+    background-image:url(bg-intro-desktop.png);
   }
 
   .desktop-screen-left {
