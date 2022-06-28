@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro component with sign up form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Outfit&family=Poppins:wght@400;500;600;700&family=Red+Hat+Display:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="desktop-screen-left">
+          <div class="description">
+            <h1>Learn to code by watching others</h1>
+            <p>
+              See how experienced developers solve problems in real-time.
+              Watching scripted tutorials is great, but understanding how
+              developers think is invaluable.
+            </p>
+          </div>
+        </div>
+
+        <div class="desktop-screen-right">
+          <div class="trial-container">
+            <div class="trial">
+              <p><span> Try it free 7 days</span> then $20/mo. thereafter</p>
+            </div>
+          </div>
+
+          <div class="form-container">
+            <form action="#" id="form" onsubmit="return cancelSubmit()">
+              <div class="input-box">
+                <input
+                  class="component first"
+                  type="text"
+                  placeholder="First Name"
+                  name="FirstName"
+                />
+                <img
+                  src="/images/icon-error.svg"
+                  alt="icon-error"
+                  id="firstName-error"
+                />
+              </div>
+              <div class="error-message-container">
+                <p class="first-error-msg">First name cannot be empty</p>
+              </div>
+              <div class="input-box">
+                <input
+                  class="component last"
+                  type="text"
+                  placeholder="Last Name"
+                  name="LastName"
+                />
+                <img
+                  src="/images/icon-error.svg"
+                  alt="icon-error"
+                  id="lastName-error"
+                />
+              </div>
+              <div class="error-message-container">
+                <p class="last-error-msg">Last name cannot be empty</p>
+              </div>
+              <div class="input-box">
+                <input
+                  class="component email"
+                  type="text"
+                  placeholder="Email Address"
+                  name="Email"
+                />
+                <img
+                  src="/images/icon-error.svg"
+                  alt="icon-error"
+                  id="email-error"
+                />
+              </div>
+              <div class="error-message-container">
+                <p class="email-error-msg">Looks like this is not an email</p>
+              </div>
+              <div class="input-box">
+                <input
+                  class="component password"
+                  type="text"
+                  placeholder="Password"
+                  name="Password"
+                />
+                <img
+                  src="/images/icon-error.svg"
+                  alt="icon-error"
+                  id="password-error"
+                />
+              </div>
+              <div class="error-message-container">
+                <p class="password-error-msg">Password cannot be empty</p>
+              </div>
+              <button type="submit" class="component btn">
+                Claim your free trial
+              </button>
+              <div class="component paragraph">
+                <p>
+                  By clicking the button, you are agreeing to our
+                  <span class="terms">Terms and Services</span>
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
