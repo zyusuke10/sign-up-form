@@ -358,7 +358,7 @@ form {
   }
 
   .container {
-    background-image: url(/images/bg-intro-mobile.png);
+    background-image:url(bg-intro-desktop.png);
     width: 100%;
     max-width: 100%;
     min-height: 100vh;
@@ -475,7 +475,7 @@ form {
   }
 
   .container {
-    background-image: url(/images/bg-intro-mobile.png);
+    background-image:url(bg-intro-desktop.png);
     width: 100%;
     max-width: 100%;
     min-height: 100vh;
